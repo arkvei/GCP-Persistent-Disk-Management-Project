@@ -1,0 +1,83 @@
+# Sensitive Data - DO NOT COMMIT
+*.key
+*.pem
+*.p12
+*.json
+*credentials*
+*secret*
+*password*
+service-account*.json
+gcp-key*.json
+
+# Lab-specific files
+qwiklabs-*
+lab-credentials*
+temp-credentials*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.out
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+!example.tfvars
+.terraform.lock.hcl
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.ppk
+known_hosts
+
+# GCloud SDK
+.config/gcloud/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
